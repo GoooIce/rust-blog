@@ -1,0 +1,11 @@
+[package]
+name = "miantu-next-net-blog"
+version = "0.3.0"
+edition = "2021"
+wasm-opt = false
+
+[dependencies]
+perseus = "0.3.0-beta.15"
+sycamore = "0.6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
